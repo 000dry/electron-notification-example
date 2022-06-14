@@ -1,0 +1,19 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=DEV electron .",
+    "start:nodemon": "nodemon --watch main.js --exec npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hobbits",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.4"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
